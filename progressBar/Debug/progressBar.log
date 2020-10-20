@@ -1,0 +1,8 @@
+﻿  progressBar.cpp
+C:\Users\99514\source\repos\progressBar\progressBar\progressBar.cpp(12,38): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+C:\Users\99514\source\repos\progressBar\progressBar\progressBar.cpp(12,15): warning C4244: “初始化”: 从“float”转换到“const int”，可能丢失数据
+  progressBarTest.cpp
+C:\Users\99514\source\repos\progressBar\progressBar\progressBarTest.cpp(7,12): warning C4305: “参数”: 从“double”到“const float”截断
+  正在生成代码...
+  LINK : 没有找到 C:\Users\99514\source\repos\progressBar\Debug\progressBar.exe 或上一个增量链接没有生成它；正在执行完全链接
+  progressBar.vcxproj -> C:\Users\99514\source\repos\progressBar\Debug\progressBar.exe
