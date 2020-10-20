@@ -9,7 +9,10 @@ public:
 	progressBar();
 	progressBar(const float persentage, const width_type width = 80);
 	progressBar(const progressBar& rhs);
+	progressBar& operator=(const progressBar& rhs);
+	progressBar& operator=(const float percentage);
 	~progressBar() = default;
+
 	
 	progressBar& operator++();
 	progressBar operator++(int);
