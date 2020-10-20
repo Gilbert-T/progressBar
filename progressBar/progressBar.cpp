@@ -8,6 +8,15 @@ progressBar::progressBar(const float percentage, const width_type width) : perse
 progressBar::progressBar(const progressBar& rhs) : persentage_(rhs.persentage_), width_(rhs.width_) {
 
 }
+progressBar& progressBar::operator=(const progressBar& rhs) {
+	persentage_ = rhs.persentage_;
+	width_ = rhs.width_;
+	return *this;
+}
+progressBar& progressBar::operator=(const float percentage) {
+	persentage_ = percentage;
+	return *this;
+}
 std::ostream& operator<<(std::ostream& os, const progressBar &pb) {
 	const int  n = pb.persentage_ / 100 * pb.width_ ;
 	//std::cout << "n = " << n << std::endl;
